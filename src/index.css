@@ -1,0 +1,59 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #023047;
+  color: #8ecae6;
+}
+
+
+.onBoardingContainer{
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.onBoardingParent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #8ecae6;
+  align-items: center;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+input{
+  height:fit-content;
+  width:min-content;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  outline-color: #ffb703;
+  border: none
+}
+
+
+button{
+  background-color: #ffb703;
+  width: 20%;
+  color:#023047;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  outline: none;
+  border: 0px;
+  cursor: pointer;
+}
+
+html{
+  font-size: 16px;
+}
+
+
+
+
+
+
